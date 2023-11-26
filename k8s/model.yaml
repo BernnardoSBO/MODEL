@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: model2
+  name: model3
   labels: 
-    app: model2
+    app: model3
 spec:
   containers:
-  - name: model2
+  - name: model3
     image: bernnardosbo/model
     volumeMounts:
       - name: persistent-storage
@@ -20,4 +20,4 @@ spec:
   volumes:
     - name: persistent-storage
       persistentVolumeClaim:
-        claimName: pvc1
+        claimName: mypvc
