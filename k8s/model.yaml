@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: model3
+  name: model4
   labels: 
-    app: model3
+    app: model4
 spec:
   containers:
-  - name: model3
+  - name: model4
     image: bernnardosbo/model
     volumeMounts:
       - name: persistent-storage
