@@ -15,9 +15,9 @@ spec:
       - name: DATASET_URL
         value: "https://homepages.dcc.ufmg.br/~cunha/hosted/cloudcomp-2023s2-datasets/2023_spotify_ds2.csv"
       - name: MIN_SUP_RATIO
-        value: 0.06
+        value: "0.06"
       - name: MIN_CONF
-        value: 0.1
+        value: "0.1"
     command: ["python"]
     args: ["/app/main.py", "$(DATASET_URL)"]
 
