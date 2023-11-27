@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: model1
+  name: model2
   labels:
-    name: model1
+    name: model2
 spec:
   containers:
-  - name: model1
+  - name: model2
     image: bernnardosbo/model
     resources:
       limits:
