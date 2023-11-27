@@ -28,5 +28,5 @@ spec:
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
-      claimName: pvc
+      claimName: mypvc
   restartPolicy: OnFailure
