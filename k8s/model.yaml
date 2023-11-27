@@ -1,17 +1,17 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: model
+  name: model1
   labels:
-    name: model
+    name: model1
 spec:
   containers:
-  - name: model
+  - name: model1
     image: bernnardosbo/model
     resources:
       limits:
-        memory: "1000Mi"
-        cpu: "1000m"
+        memory: "1500Mi"
+        cpu: "1500m"
     volumeMounts:
     - name: persistent-storage
       mountPath: /app/data
